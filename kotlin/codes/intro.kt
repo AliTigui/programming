@@ -23,6 +23,7 @@ fun main(){
   -We can pre-determine the type of a variable using suffix after it name exemple : Byte Int Short Long Double Char String Boolean Float
   - we can add L at the  end of integer declaration for make it long
   - we can add f or F in end of double declaration for make it float
+  - we can change type of numerical variable using one of those methodes toByte(), toShort(),	toInt(),	toLong(),	toFloat()	and	toDouble().
   -kotlin support binaire and hexadecimal number for write nomber in binaire or hexadecimal we use 01 for binaire 0x for hexadecimal
       kotlind don't support octal number 
   -Array :
@@ -32,6 +33,7 @@ fun main(){
   # we can change element of the array by index
   # by creating array using val we cant assign it to new array but we can change value of variable inside it
   # we can get size of array using  arrayName.size
+  # We can pre-determine the type of array like normal variable by using Array<type> after array name type are : Byte Int Short Long Double Char String Boolean Float
   
   
   */
@@ -40,8 +42,11 @@ fun main(){
   var a: Long=5 // creat Long withe  prefix method
   var b=64L //creat long
   var c=1.84f // creat float
+  c= a.toFloat()
   var d=0b11001 // use binaire number
   var e=0x1ef // hexadecimal number
   var arr=arrayOf(4,5,6,7) //creat array of integer
   arr[0]=10 //change first value to 10
+ var l=arr.size
+ var  arr2:Array<Byte> =arrayOf(8,57,2,7)
 }
