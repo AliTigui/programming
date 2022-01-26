@@ -49,4 +49,55 @@ fun main(){
   arr[0]=10 //change first value to 10
  var l=arr.size
  var  arr2:Array<Byte> =arrayOf(8,57,2,7)
+ 
+ /*
+ -Loop and controle flow : there is three type of loop
+ # do{ }while() run code then test condition  while(){} check condition before run code for(){} run code for know number of time
+ # for loop is the mor complicated when we can use it for loop through array element or we can use it for loop through range of number
+     Exemple : for(i in el){ println(i)} or we can use for(i in 0..9){println(i)} if we want it revers count we use for(i in 6 downTo 0 step 2){ println(i)}
+     if we didn't add step it will be 1
+ # comparaison operateur are > < == <= >= !=
+ # Logical operateur are || (or) && (and)
+ # if(condition 1){ code 1}else if(condition 2){ code 2} else{ code if all false }
+ # we can use if else to return value exemple var a= if(j>5) "big" else "small"
+ - print we can print using print or println deferance is println add line break in the end of the value that we print
+      we can print value of  variable and write expression inside string by putting it inside ${} (this is string template)
+ -Arithmetic operations
+ # + addition - substractoin /division * multiplication % modulo and we have += *= -= /= %= ++a a++ a-- --a 
+ 
+ 
+ */
+ while(x<10){
+ println("${x}")
+ x+=1
+ }
+ do{
+ println("${a}")
+ a+=1
+ }while(a<10)
+ var j=5
+ if(j>10 ){
+  println("big")
+ }else if(j%2 ==0){
+  println("even")
+ }else{
+  println("odd ") 
+ }
+ println(" 4+5 = ${4+5}")
+ var u=if(a>10) "big" else "small"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
 }
