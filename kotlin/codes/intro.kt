@@ -3,11 +3,8 @@ hello this my first kotlin code i write here the basik that i learn
 */
 fun main(){
 // all code that we want to use should be inside main function
-  
-  
+
  // declare variable
-  var x=5
-  val y=6
   // var can be changed but val no
   /*
   -variables type are :
@@ -28,11 +25,23 @@ fun main(){
   - we can add f or F in end of double declaration for make it float
   -kotlin support binaire and hexadecimal number for write nomber in binaire or hexadecimal we use 01 for binaire 0x for hexadecimal
       kotlind don't support octal number 
+  -Array :
+  # we can make array  using arrayOf(4,5,6,7) it see the element inside the function then creat arrey objetc based en element inside it
+  # the arae object can't be changed if it arre of integer it will not be abbel to change to string or float ...
+  # we can get element inside the array using index first index is 0
+  # we can change element of the array by index
+  # by creating array using val we cant assign it to new array but we can change value of variable inside it
+  # we can get size of array using  arrayName.size
+  
   
   */
-  var a: Long=5// creat Long withe  prefix method
-  var b=64L//creat long
-  var c=1.84f// creat float
-  var d=0b11001// use binaire number
+   var x=5
+  val y=6
+  var a: Long=5 // creat Long withe  prefix method
+  var b=64L //creat long
+  var c=1.84f // creat float
+  var d=0b11001 // use binaire number
   var e=0x1ef // hexadecimal number
+  var arr=arrayOf(4,5,6,7) //creat array of integer
+  arr[0]=10 //change first value to 10
 }
