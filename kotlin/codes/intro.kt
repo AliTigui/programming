@@ -52,7 +52,8 @@ fun main(){
  
  /*
  -Loop and controle flow : there is three type of loop
- # do{ }while() run code then test condition  while(){} check condition before run code for(){} run code for know number of time
+ # do{ }while() run code then test condition  while(){} check condition before run code for(){} run code for know number of time 
+     repeat(n){} repeat statement n time
  # for loop is the mor complicated when we can use it for loop through array element or we can use it for loop through range of number
      Exemple : for(i in el){ println(i)} or we can use for(i in 0..9){println(i)} if we want it revers count we use for(i in 6 downTo 0 step 2){ println(i)}
      if we didn't add step it will be 1
