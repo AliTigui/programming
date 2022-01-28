@@ -7,7 +7,8 @@
     # if paramatre is array we use fun name (par:Array<type>)
     # if function have only 1 line of code we can use fun name (par1:type,par2:type) = a+b or somthing else
     # in kotlin we par argument by reference but we can't modify them because when we pass them to funtion they arr represented inside it like val variables
-    #
+    # for make one of the argument optional we add vararg befor it exemple fun name(par1:type,vararg par2:type):retunType{statement } we can put as much as argument
+        that we want in vararg parametre and all those argument will be like array 
 
 */
 fun main(){
