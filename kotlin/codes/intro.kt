@@ -88,7 +88,7 @@ fun main(){
  # Logical operateur are || (or) && (and)
  # if(condition 1){ code 1}else if(condition 2){ code 2} else{ code if all false }
  # we can use if else to return value exemple var a= if(j>5) "big" else "small"
- # we can use when(var){val1 -> statement val2-> statement else{statement}} it work like switch case
+ # we can use when(var){val1 -> statement val2-> statement else->statement} it work like switch case
       we can test for range exmple when(var){ in 0..9-> statement else{}}
  - print we can print using print or println deferance is println add line break in the end of the value that we print
       we can print value of  variable and write expression inside string by putting it inside ${} (this is string template)
