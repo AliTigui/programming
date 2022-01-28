@@ -60,8 +60,9 @@ fun main(){
   # for add other list or element to or list we use listName.addAll(arr)
   # we can make list with var l = listOf(1,4,"9") but this type we can't add or change value or remove element 
   # we can use var l = arrayListOf(1 ,5,"ali") here like ArrayList() we can edit add and modify
-  #
-  #
+  
+  - we can loop in array or list using .withIndex() Exemple : for((Index,Valur) in arr.widthIndex()) println("in index = $Index we have $Value")
+  
   */
    var x=5
   val y=6
