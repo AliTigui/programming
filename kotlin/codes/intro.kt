@@ -15,14 +15,15 @@ fun main(){
   # long : integer it take 64 bit
   # float : real number  it take 32 bit (3.45)
   # double : real number it take 64 bit (4.65)
-  # we can get mac and min value of any number tipe using .MIN_VALUE and .MAX_VALUE exemple : Int.MIN_VALUE
+  # we can format how much degit we want take after print  or store in double using "%.DegitNumber".format(doubleVariable
+  # we can get max and min value of any number tipe using .MIN_VALUE and .MAX_VALUE exemple : Int.MIN_VALUE
   # char : it represent 1 character should be inside ' '
   # string : it represent serie of character should be inside " "
   # we can use .trim() for remove spaces at the end and the begin of string or trimEnd() remove from the end , trimStart() remove frome begin
   # using """ """ can help us to make paragraph and print it like we write it it have trimMargin() method that remove annicecarry whitspace
         but it default value is | that mean remove space before | we can change that by putting value inside the method
   # string have  .uppercase() methode that transform it to uppercase .lowercase() that transforme it to lower case and .replace("a","v") 
-        for replace valeu in string with other one
+        for replace valeu in string with other one we can get substring using str.substring(start , end) or str.subSequence(start,end)
   -We can't assigne variabl to another that don't have the same type
   -After creat variable kotlin compiler se the value and creat object with type based in that value for integer the default is int 
       for real number the default is double, then put the value in this objet then put it referance in our variable
