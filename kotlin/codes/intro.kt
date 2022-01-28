@@ -60,7 +60,7 @@ fun main(){
   # for add other list or element to or list we use listName.addAll(arr)
   # we can make list with var l = listOf(1,4,"9") but this type we can't add or change value or remove element 
   # we can use var l = arrayListOf(1 ,5,"ali") here like ArrayList() we can edit add and modify
-  
+  - there is mutableListOf()  it can be change to
   - we can loop in array or list using .withIndex() Exemple : for((Index,Valur) in arr.widthIndex()) println("in index = $Index we have $Value")
   - we can use arr.forEach{ print(it)} for print all element of array or list it referre to element we can change it
   - exemple arr.forEach{ el-> print(el)} we can do other operatoin to the element not just print them
