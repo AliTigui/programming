@@ -8,6 +8,9 @@ fun main(){
   // var can be changed but val no
   /*
   -variables type are :
+  # null isn't type in kotlin  we can creat null using var a=null
+  # for creat null type lik Int or String we have to use ? var a:Int? =null
+  # when work with it we should use !! it rease exception if we get null in variable or place that shouldn't be null
   #Boolean : it can be true or false
   # byte : integer it take 8 bit it value between -128 and 127
   # short : integer it take 16 bit
@@ -34,15 +37,31 @@ fun main(){
   -kotlin support binaire and hexadecimal number for write nomber in binaire or hexadecimal we use 01 for binaire 0x for hexadecimal
       kotlind don't support octal number 
   -Array :
-  # we can make array  using arrayOf(4,5,6,7) it see the element inside the function then creat arrey objetc based en element inside it
-  # the arae object can't be changed if it arre of integer it will not be abbel to change to string or float ...
+  # we can make array  using arrayOf(4,5,6,7) it see the element inside the function then creat arrey objetc based en element inside it we can make array of mixed type
+  # the array object can't be changed if it array of integer it will not be abbel to change to string or float ...
   # we can get element inside the array using index first index is 0
   # we can change element of the array by index
   # by creating array using val we cant assign it to new array but we can change value of variable inside it
   # we can get size of array using  arrayName.size
-  # We can pre-determine the type of array like normal variable by using Array<type> after array name type are : Byte Int Short Long Double Char String Boolean Float
-  
-  
+  #We can pre-determine the type of array like normal variable by using Array<type>(length){el} after array name type are : Byte Int Short Long Double Char String Boolean Float 
+  #we can use make array using ByteArray(length){ fill with} IntArray(length) ShortArray(length) LongArray(length) DoubleArray(length) CharArray(length) 
+  #StringArray(length) BooleanArray(length) FloatArray(length)
+  # we can transform string to array of string using str.toCharArray()
+  # we can max to or three or n dimenstion array exmple var a= arrayOf(arrayOf(1,2,3),arrayOf(4,5,6),arrayOf(7,8,9)) we use double index for get element
+  # we can loop element of array using  for loop with the keyword in
+  we can get  length of array using .count() or .size
+  -list
+  #List arr like array collection of data but we wan add end remove element
+  # for creat list we use var list=ArrayList<type>()
+  # for add element we use listName.add(value) for get element we use index or listName.get(index)
+  # for remove value we use listName.remove(value) or listName.removeAt(index)
+  # for remove all element we use listName.removeAll(listName)
+  # for edit element we can use index listName[index] = nexValue or listName.set(index,value)
+  # for add other list or element to or list we use listName.addAll(arr)
+  # we can make list with var l = listOf(1,4,"9") but this type we can't add or change value or remove element 
+  # we can use var l = arrayListOf(1 ,5,"ali") here like ArrayList() we can edit add and modify
+  #
+  #
   */
    var x=5
   val y=6
