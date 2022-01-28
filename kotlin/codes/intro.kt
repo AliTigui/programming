@@ -18,7 +18,7 @@ fun main(){
   # we can format how much degit we want take after print  or store in double using "%.DegitNumber".format(doubleVariable
   # we can get max and min value of any number tipe using .MIN_VALUE and .MAX_VALUE exemple : Int.MIN_VALUE
   # char : it represent 1 character should be inside ' '
-  # string : it represent serie of character should be inside " "
+  # string : it represent serie of character should be inside " " we can get string length using .size or .count() 
   # we can use .trim() for remove spaces at the end and the begin of string or trimEnd() remove from the end , trimStart() remove frome begin
   # using """ """ can help us to make paragraph and print it like we write it it have trimMargin() method that remove annicecarry whitspace
         but it default value is | that mean remove space before | we can change that by putting value inside the method
