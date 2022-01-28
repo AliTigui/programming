@@ -64,6 +64,7 @@ fun main(){
   - we can loop in array or list using .withIndex() Exemple : for((Index,Valur) in arr.widthIndex()) println("in index = $Index we have $Value")
   - we can use arr.forEach{ print(it)} for print all element of array or list it referre to element we can change it
   - exemple arr.forEach{ el-> print(el)} we can do other operatoin to the element not just print them
+  - we can use arr.forEachIndexed{index,val-> statement} it return the index and value
   */
    var x=5
   val y=6
