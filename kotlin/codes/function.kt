@@ -13,12 +13,4 @@
     # functoin parametre defalut value and when we call it we can use it without passing argument exemple fun name(par1:type=val,vararg par2:type=val)
 
 */
-fun main(){
 
-  var a=5
-  var b=6
-  println(sum(a,b))
-}
-fun sum(p1:Int ,p2:Int):Int{
- return p1+p2
-}
