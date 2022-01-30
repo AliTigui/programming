@@ -7,5 +7,10 @@
 * we declare variable in kotlin using var or val keyword
 * variable with var can be change variable with var can't be change they are constant 
 * kotlin support both functional and orient object programming
-* 
+* Arithmetic operations: + addition - substractoin /division * multiplication % modulo and we have += *= -= /= %= ++a a++ a-- --a 
+* we can print value  using print or println deferance is println add line break in the end of the value that we print
+* kotlin support string template that mean we can print or put variable in string using $ before variable and swe can also put equatoin in string using ${equation}
+  exemple : var a =" 4 + 4 = ${4 + 4 } "
+* comparaison operateur are > < == <= >= != and we have === that mean variable have same reference . !== mean they don't have same reference
+* logical operateur are || (or) && (and) ! (not)
 */
