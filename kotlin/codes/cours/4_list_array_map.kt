@@ -59,7 +59,7 @@ for check if value exist in array we use arr.contains(value) return true or fals
 
 we use arr.indexOf(val )  for get index of value 
 
-
+for revers array we use . reversed() / for copy it element to another list we use .copyOf() we can use copyOfRange(start ,end)
 
 
 */
