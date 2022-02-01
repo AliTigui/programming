@@ -1,1 +1,5 @@
-
+/*
+it better but class in other file not in the  file with main function if we make it in same package with our file we can use it else we need import the package 
+for make class and function inside package we write package keword flowed with package name  in top of our file we have import package for use the element inside it 
+or we can use packageName.class use it by prefix it with it package name
+*/
