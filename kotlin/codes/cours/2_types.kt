@@ -7,6 +7,8 @@ kotlin have 8 basic variable types
 * Long : integer it take 64 bit
 * Float : real number  it take 32 bit (3.45)
 * Double : real number it take 64 bit (4.65)
+* Any : variable with this type can be assign to valeur from all other type it van be Int Short Byte ....
+_we can check variable type using is exemple : varName is Int
 _for get max or min value of numeric types we use type.MIN_VALUE for min type .MAX_VALUE for max exmple : Int.MIN_VALUE
 _we can format double and float and specific how much degit we want take after print . using "%.DegitNumber".format(doubleVariable) exemple : var a="%.2".format(3.49744)
 _we can writ number with those form too  2e4/2E4 -> (2^4) and 1__4_87_6 ->(14876) 
