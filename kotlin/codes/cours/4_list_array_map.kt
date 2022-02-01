@@ -45,7 +45,12 @@ var a= HashMap<String,String>()
  forEach
  mutableListOf
 
-
+we can add  and mix list anr array together using + operateur 
+for array they must be the same type 
+array list of can be added if they are not same type 
+we can't add element to the result of some of array 
+we can filter array or list using .filter{conditoin}
+ exemple v=list.filter{it >5} it referr to current element when the filter is looping throught the array 
 
 
 
