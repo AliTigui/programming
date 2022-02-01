@@ -11,4 +11,5 @@
         that we want in vararg parametre and all those argument will be like array if we want pass those argument in array or list format we use * before argument name
     # we can use name parametre when call function for pass for chack name  the correct argumen exmple  fun1(par="ali",par2=2) but if swe use it we have to use it for all paramatre
     # functoin parametre defalut value and when we call it we can use it without passing argument exemple fun name(par1:type=val,vararg par2:type=val)
+    we can creat function inside other one 
     */
