@@ -12,4 +12,21 @@
     # we can use name parametre when call function for pass for chack name  the correct argumen exmple  fun1(par="ali",par2=2) but if swe use it we have to use it for all paramatre
     # functoin parametre defalut value and when we call it we can use it without passing argument exemple fun name(par1:type=val,vararg par2:type=val)
     we can creat function inside other one 
+    
+    we can make functin return 2 value using Pair exemple :
+    fun myFunc(a:Int, b:String):Pair<Int,String>{ return Pair(a + 1, n + " hi")} for use it we do var (a, b)=myFun(4,'ali');
+    shorthand function fun addnumb(a:Int, b:Int):Int = a+b here we can creat it without specific the return value  function fun addnumb(a:Int, b:Int) = a+b
+    we can do  fun addnumb(a:Int, b:Int) = println(a+b)
+    we can creat function like variable exemple val sayHello ={paramatre -> statmend1;statement2 ; value that it return}
+    val myFun = {name:String -> println("hello " + name)} we use it myFun("ali")
+    in function we can use recrusive function 
+    for avoid stackoverflow in recrusive we use tailrec before the fun keyword 
+    we can make fun creat fun
+    exemple 
+    fun add(n:Int):(Int)->Int= {num2-> num2+n}
+    for use it we use
+    val a= add(7)
+    println(a(5))
+    we can make function accept other function by specific it return type and it argument type
+    fun func1(a:Int,func:(b:Int)->int){}
     */
