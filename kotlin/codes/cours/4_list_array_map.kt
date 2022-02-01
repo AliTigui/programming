@@ -52,10 +52,12 @@ we can't add element to the result of some of array
 we can filter array or list using .filter{conditoin}
  exemple v=list.filter{it >5} it referr to current element when the filter is looping throught the array 
 
+we can fill aray autoumatiquement using 
+var a = Array(6){x -> x} it mean  0 1 2 3 4 5 we can do x -> x + 1 add 1 mean 1 2 3 4 5 6 x -> x * 2 0 2 4 6 8 10 
+we can  get ready index of list or array using listName.indices exemple for(i in list.indices){println(list[i])}
+for check if value exist in array we use arr.contains(value) return true or false 
 
-
-
-
+we use arr.indexOf(val )  for get index of value 
 
 
 
