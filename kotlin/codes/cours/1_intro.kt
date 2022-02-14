@@ -1,7 +1,6 @@
 /*
 
 
-* Arithmetic operations: + addition - substractoin /division * multiplication % modulo and we have += *= -= /= %= ++a a++ a-- --a 
 * kotlin support string template that mean we can print or put variable in string using $ before variable and swe can also put equatoin in string using ${equation}
   exemple : var a =" 4 + 4 = ${4 + 4 } "
 * comparaison operateur are > < == <= >= != and we have === that mean variable have same reference . !== mean they don't have same reference
