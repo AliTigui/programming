@@ -1,6 +1,6 @@
 /*
 
-_we can check variable type using is exemple : varName is Int
+
 _for get max or min value of numeric types we use type.MIN_VALUE for min type .MAX_VALUE for max exmple : Int.MIN_VALUE
 _we can format double and float and specific how much degit we want take after print . using "%.DegitNumber".format(doubleVariable) exemple : var a="%.2".format(3.49744)
 _we can writ number with those form too  2e4/2E4 -> (2^4) and 1__4_87_6 ->(14876) 
@@ -22,10 +22,7 @@ the 8 weak  byte of our number)
 -we can convert from String to all number if it don't depace their max  or min value we can't convert from String to Char if the stirng is true or false it can be converted 
 to boolean
 #Remarque
-_kotlin know type of variable when we creat it automaticly by it value but if we want predifine the type we use var variablename:typeName exemple: var num:short=45
-_in kotlin Int is default type of integer and Double is default type of real number if we want variable be float we use L after if if we want it be float number we
-use f or F exemple var num1=54L  / var num2=548.48f
-_we cant asign variable to another one if they are not the same type 
+
 _kotlin support binaire and hexadecimal base number we can writ number in hexa by add the prefix 0x and for binaire we use 0b exemple var n=0xf ->(15) but kotlin dont support
 octal number 
 _for remove in neccesary white space in string we use str.trim() for remove for remoe from the end only we use str.trimEnd() and for begin only we use str.trimStart()
