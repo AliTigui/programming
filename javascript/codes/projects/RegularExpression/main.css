@@ -1,0 +1,45 @@
+/*
+we can add font by import it from the web
+it better when add it writ it family after it
+if the browser don't support it we will get font from same family
+we can creat variable to store color  inside them
+but not all browser accept them so we add value to display when browser dons suport
+we can change that varieble value in element we want 
+*/
+:root{
+    --red: #f00;
+   
+}
+h1{
+    font-family: Lobster,monospace;
+    color: var(--red,red);
+}
+#txt,span,button{
+     font-size: 18px;
+    text-transform: uppercase;
+}
+#txt{
+    padding: 5px;
+    border-radius: 5px; 
+    width: 300px;
+    
+}
+span{
+    margin-left: 10px;
+    padding:  5px;
+    color: rgba(74, 69, 69, 0.87);
+    border-radius: 5px;
+    
+    
+}
+button{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(31, 226, 68, 0.78);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+button:hover{
+  background-color: rgba(27, 121, 103, 0.84);
+    color: #ffffff;  
+}
